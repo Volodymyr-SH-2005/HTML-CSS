@@ -5,3 +5,11 @@ p {
 h2, h3 {
     color: blue;
 }
+sub, sup {
+    font-size: 16px;
+    color: tan;
+}
+span{
+    font-size: 40px;
+    color: darkblue;
+}
