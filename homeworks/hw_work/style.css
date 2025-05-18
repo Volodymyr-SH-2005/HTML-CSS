@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+}
+.w-1440{
+    width: 1440px;
+    background: #1E1E1E;
+    margin: 0 auto;
+    padding: 36px 50px;
+}
+nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background: green;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 59px;
+    background: yellow;
+}
