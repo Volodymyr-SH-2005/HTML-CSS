@@ -22,7 +22,7 @@ nav{
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    /*align-items: center;*/
+    align-items: center;
 }
 ul{
     display: flex;
@@ -42,8 +42,8 @@ ul a{
 }
 .nav__active-link{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /*justify-content: center;*/
+    /*align-items: center;*/
     padding: 21px 26px;
     color: #1E1E1E;
     background: #B3A0CD;
@@ -59,12 +59,10 @@ ul a{
     line-height: 88.896%; /* 95.198px */
     letter-spacing: -2.142px;
     text-transform: uppercase;
-    /*margin: 74px auto 33px auto;*/
     margin: 74px 0 33px 0;
 }
 .header-img{
     /*display: block;*/
-    /*margin: 0 auto 32px auto;*/
     margin-bottom: 32px;
 }
 /*-----------------------------*/
@@ -80,16 +78,6 @@ ul a{
     background: #D1EF53;
     margin-bottom: 64px;
 }
-.section-info-right{
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 34px;
-    /*border: none;*/
-}
 .section-info__h2{
     width: 533px;
     color: #1E1E1E;
@@ -99,6 +87,16 @@ ul a{
     line-height: 88.896%; /* 62.228px */
     letter-spacing: -1.4px;
     text-transform: uppercase;
+}
+.section-info-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 34px;
+    /*border: none;*/
 }
 .section-info__p{
     width: 521px;
@@ -118,6 +116,39 @@ ul a{
     /* DropShadow */
     box-shadow: 8px 8px 0px 0px #000;
     color: #1E1E1E;
+    font-family: "Bowlby One", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 96.896%; /* 17.441px */
+    text-transform: uppercase;
+}
+/*---------------------sections-img----------------------------*/
+.section-img-food{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+.img-people{
+    margin-bottom: 64px;
+}
+.footer-h2{
+    width: 895px;
+    color: #E9E3DC;
+    text-align: center;
+    font-family: "Bowlby One", sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 101.896%; /* 71.328px */
+    text-transform: uppercase;
+    margin-bottom: 33px;
+}
+.w-1440 button{
+    width: 196px;
+    height: 60px;
+    background: #D1EF53;
+    color: #1E1E1E;
+    text-align: center;
     font-family: "Bowlby One", sans-serif;
     font-size: 18px;
     font-weight: 400;
