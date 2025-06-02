@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-top: 50px solid lawngreen;
+    border-right: 40px solid lightcoral;
+    border-bottom: 30px solid lightskyblue;
+    border-left: 20px solid lightseagreen;
+    animation: rotate 4s linear infinite alternate;
+}
+@keyframes rotate{
+    from{
+        transform: rotate(360deg);
+
+    }
+    to{
+        transform: rotate(-360deg) scale(1.5);
+    }
+}
