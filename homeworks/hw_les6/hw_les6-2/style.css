@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(59, 129, 132, 1);
+}
+.form-registration{
+    width: 40%;
+    height: 50%;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 1);
+}
+div.form-registration>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    border-radius: 20px 20px 0 0;
+    background: rgba(59, 129, 132, 0.15);
+}
+div.form-registration p{
+    font-size: 32px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+}
+form input{
+    border: 2px solid rgba(128, 128, 128, 0.71);
+}
+form input[type="text"],input[type="password"]{
+    height: 40px;
+    width: 400px;
+}
+form div{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+form input[type="checkbox"]{
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 2px solid rgba(128, 128, 128, 0.71);
+    /*margin-bottom: -2px;*/
+    border-radius: 2px;
+    margin-left: 5px;
+}
+form label{
+    color: rgba(0, 0, 0, 0.80);
+}
+form input[type="checkbox"]:checked{
+    background-image: url("./img/check.webp");
+    background-size: cover;
+}
+form input[type="submit"]{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background: rgba(59, 129, 132, 0.15);
+    color: rgba(0, 0, 0, 0.80);
+}
