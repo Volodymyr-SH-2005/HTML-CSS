@@ -42,15 +42,17 @@ input[type="text"], input[type="password"]{
     margin-bottom: 8px;
     border: 2px solid #DBDBDB;
     border-radius: 4px;
+    box-sizing: border-box;
 }
 input[type="submit"]{
     height: 32px;
-    width: 282px;
+    width: 260px;
     margin: 8px 0 20px 0;
     border: none;
     border-radius: 10px;
     color: white;
     font-weight: 600;
+    box-sizing: border-box;
 }
 form:invalid input[type="submit"] {
     background-color: rgba(10, 104, 225, 0.6);
