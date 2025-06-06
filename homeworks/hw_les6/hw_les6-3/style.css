@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background: white;
+    font-family: 'Roboto', sans-serif;
+}
+section, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 380px;
+    border: 2px solid #DBDBDB;
+}
+.img_logo_instagram{
+    width: 50%;
+    object-fit: cover;
+    margin: 35px 0;
+}
+.img_logo_facebook{
+    height: 20px;
+    object-fit: cover;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input[type="text"], input[type="password"]{
+    height: 40px;
+    width: 260px;
+    padding: 0 10px;
+    margin-bottom: 8px;
+    border: 2px solid #DBDBDB;
+    border-radius: 4px;
+}
+input[type="submit"]{
+    height: 32px;
+    width: 282px;
+    margin: 8px 0 20px 0;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+}
+form:invalid input[type="submit"] {
+    background-color: rgba(10, 104, 225, 0.6);
+}
+form:valid input[type="submit"] {
+    background-color: rgba(10, 104, 225, 0.8);
+}
+form:valid input[type="submit"]:hover {
+    background-color: #0a68e1;
+}
+form p:first-of-type{
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #737373;
+}
+form p:nth-of-type(3){
+    margin: 20px 0;
+}
+form p:nth-of-type(3) a{
+    text-decoration: none;
+    color: #123767;
+}
+footer{
+    padding: 22px 0;
+}
+footer a{
+    text-decoration: none;
+    color: #3E95EF;
+}
+a:active{
+    opacity: 0.6;
+}
