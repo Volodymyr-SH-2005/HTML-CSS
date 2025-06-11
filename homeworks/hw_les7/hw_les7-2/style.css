@@ -39,13 +39,13 @@ nav a{
     text-decoration: none;
 }
 /*----------------------one__posotion--------------------*/
-.one__posotion{
+.one-posotion{
     width: 100%;
     height: 692px;
     background: #24204A;
     padding: 180px 0 101px 0;
 }
-.one__posotion__div_w-1170{
+.one-posotion__div_w-1170{
     width: 1170px;
     height: 100%;
     margin: 0 auto;
@@ -54,15 +54,15 @@ nav a{
     justify-content: space-between;
     align-items: flex-start;
 }
-.one__posotion__div_w-1170 div:nth-child(1){
+.one-posotion__div_w-1170 div:nth-child(1){
     display: flex;
     /*justify-content: space-between;*/
-    /*align-items: center;*/
+    /*align-items: flex-start;*/
     flex-direction: column;
     margin-top: 18px;
     gap: 32px;
 }
-.button-one__posotion{
+.button_one-posotion{
     width: 145px;
     height: 41px;
     border: none;
@@ -75,14 +75,14 @@ nav a{
     line-height: 130%; /* 20.8px */
     letter-spacing: 0.8px;
 }
-.one__posotion__div_w-1170 h2{
+.one-posotion__div_w-1170 h2{
     width: 261px;
     color: #FFF;
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 1.8px;
 }
-.one__posotion__div_w-1170 p{
+.one-posotion__div_w-1170 p{
     width: 570px;
     /*height: 85px;*/
     color: #8E88C1;
@@ -103,7 +103,7 @@ nav a{
     font-size: 16px;
     font-weight: 500;
 }
-.one__posotion__div_w-1170 div:nth-child(2){
+.one-posotion__div_w-1170 div:nth-child(2){
     width: 375px;
     height: 411px;
     border-radius: 8px;
@@ -113,16 +113,144 @@ nav a{
     display: flex;
     justify-content: center;
     align-items: center;
-
-    border: 1px solid red;
 }
-.one__posotion__div_w-1170 img{
+.one-posotion__div_w-1170 img{
     height: 318px;
 }
 
 /*----------------------lorem__ipsum--------------------*/
-.lorem__ipsum{
+.lorem-ipsum{
     width: 100%;
     height: 764px;
     background: #071341;
+    padding: 50px 0 152px 0;
+}
+.lorem-ipsum__div_w-1170{
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+    gap: 18px;
+}
+.icon div:nth-child(1){
+    width: 56.144px;
+    height: 56px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.icon h4{
+    width: 38.098px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+.icon p{
+    width: 101.26px;
+    color: #8E88C1;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.8px;
+}
+.icon:nth-child(1) div:nth-child(1){
+    background: #FF6853;
+}
+.icon:nth-child(2) div:nth-child(1){
+    background: #FF537C;
+}
+.icon:nth-child(3) div:nth-child(1){
+    background: #80D2C4;
+}
+.icon:nth-child(4) div:nth-child(1){
+    background: #3F50E7;
+}
+.icon:nth-child(5) div:nth-child(1){
+    background: #95CB7C;
+}
+.lorem-ipsum__div_w-1170 h2{
+    width: 1074px;
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px; /* 116.667% */
+}
+.lorem-ipsum__div_w-1170>p{
+    color: #8E88C1;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.8px;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /*gap: 32px;*/
+}
+.card{
+    width: 209px;
+    height: 206px;
+    border-radius: 8px;
+    border: 2px solid #8E88C1;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    flex-direction: column;
+    /*gap: 28px;*/
+    padding-top: 44px;
+}
+.card p{
+    width: 178px;
+    margin-top: 28px;
+    color: #8E88C1;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.8px;
+}
+/*----------------------map--------------------*/
+iframe{
+    width: 100%;
+    height: 664px;
+    display: block;
+}
+/*----------------------footer--------------------*/
+footer{
+    width: 100%;
+    height: 94px;
+    background: #071341;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 200%; /* 24px */
 }
