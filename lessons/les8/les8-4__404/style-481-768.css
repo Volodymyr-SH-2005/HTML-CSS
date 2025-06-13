@@ -1,1 +1,13 @@
-@media screen and (min-width: 481px) and (max-width: 480px){}
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .circle-left{
+        width: 403px;
+        height: 403px;
+        border-radius: 403px;
+        top: -217px;
+        left: -127px;
+    }
+    .circle-right{
+        top: -19px;
+        right: -132px;
+    }
+}
