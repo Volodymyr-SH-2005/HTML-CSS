@@ -1,0 +1,26 @@
+.wrapper{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.grid-wrapper{
+    height: 90vh;
+    display: grid;
+    background: gray;
+    border: 1px solid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.carousel{
+    height: 50vh;
+}
+.carousel img{
+    height: 50vh;
+    object-fit: cover;
+}
