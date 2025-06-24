@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+        header{
+            height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        main{
+            height: 90vh;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            justify-content: center;
+            align-content: center;
+            gap: 20px;
+            padding-bottom: 20px;
+            border: 1px solid;
+        }
+        section{
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid red;
+            background-color: gray;
+        }
+        section a {
+            width: 100%;
+            height: 100%;
+            /*display: block;*/
+        }
+        section img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+    <h1>Домашка 9</h1>
+</header>
+<main>
+    <section><a href="#"><img src="img/grid1.png" alt="Grid1"></a></section>
+    <section><a href="#"><img src="img/grid2.png" alt="Grid2"></a></section>
+    <section><a href="#"><img src="img/grid3.png" alt="Grid3"></a></section>
+    <section><a href="#"><img src="img/grid4.png" alt="Grid4"></a></section>
+    <section><a href="#"><img src="img/grid5.png" alt="Grid5"></a></section>
+    <section><a href="#"><img src="img/grid6.png" alt="Grid6"></a></section>
+</main>
+
+</body>
+</html>
