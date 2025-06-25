@@ -30,6 +30,10 @@ a {
     justify-content: center;
     align-items: center;
 }
+a:hover{
+    background-color: blue;
+    transition: 1s;
+}
 img{
     width: 95%;
     height: 95%;
